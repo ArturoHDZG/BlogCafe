@@ -4,6 +4,7 @@
     --Primary: #784D3C;
     --White: #FFFFff;
     --Black: #000000;
+    --WhiteGrayish: #e1e1e1;
 
     /* Fonts */
     --OpenSans: 'Open Sans', sans-serif;
@@ -24,7 +25,7 @@ body {
     line-height: 2;
 }
 
-.container {
+.Container {
     max-width: 120rem;
     margin: 0 auto;
     width: 90%;
@@ -50,3 +51,89 @@ img { max-width: 100%; }
 .no-padding { padding: 0; }
 
 .text-center { text-align: center; }
+
+/* Header */
+.Header {
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+}
+
+.Header_Text {
+    color: var(--White);
+    margin-top: 5rem;
+}
+
+.Logo {
+    color: var(--White);
+}
+
+.Logo_Name {
+    font-weight: normal;
+}
+
+.Logo_Bold {
+    font-weight: bold;
+}
+
+.Navigation_Link {
+    color: var(--White);
+    display: block;
+    font-size: 1.8rem;
+}
+
+/* Blog Entry */
+.Content {
+    border-bottom: 0.1rem solid var(--WhiteGrayish);
+    margin-bottom: 2rem;
+}
+
+.Content:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.Button {
+    color: var(--White);
+    display: block;
+    font-size: 1.8rem;
+    font-family: var(--PTSans);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 1rem 3rem;
+}
+
+.Button-Primary {
+    background-color: var(--Black);
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .Header_Text {
+        margin-top: 15rem;
+    }
+
+    .TopBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Navigation {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .MainContent {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+
+    .Button {
+        display: inline-block;
+    }
+}
