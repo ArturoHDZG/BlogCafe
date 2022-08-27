@@ -1,17 +1,25 @@
-# Blog Café
+# Blog de Café
 
 ![](#)
 
-## Ver pagina web [aquí](https://arturohdzg.github.io/BlogCafe/)
+## Visit site [here](https://arturohdzg.github.io/BlogCafe/)
 
-Creación de tercer proyecto web estático usando HTML y CSS<br />
-Aquí iré documentando cada avance del proceso desde el inicio hasta el fin.
+Creation of my tirth demo project of static Website using HTML and CSS<br />
+I'll document a detailed project progress from start to end.
 <hr>
 
-### Inicio del proyecto (27/08/2022)
+### Front Page's HTML and CSS (27/08/2022)
 
-* Creación de _index.html_.
-* Creadas configuraciones globales en _CSS_.
-* Agregados iconos e imágenes para todo el proyecto.
+* Structure of HTML (Heading and Blog Section) completed.
+* Media Queries added for responsive design.
+* Minor style fixes.
 
-Ver avance del proyecto [aquí](https://github.com/ArturoHDZG/BlogCafe/releases/tag/Start)
+See project progress [here](https://github.com/ArturoHDZG/BlogCafe/releases/tag/0.1.0)
+
+### Project Start (27/08/2022)
+
+* Creation of base _index.html_.
+* _CSS_ global configurations created.
+* Icons and Images added for entire project.
+
+See project progress [here](https://github.com/ArturoHDZG/BlogCafe/releases/tag/Start)
