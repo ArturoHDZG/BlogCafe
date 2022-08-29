@@ -26,14 +26,16 @@ body {
 }
 
 .Container {
-    max-width: 120rem;
     margin: 0 auto;
-    width: 90%;
+    width: min(90%, 120rem);
 }
 
 a { text-decoration: none; }
 
-h1, h2, h3, h4 { font-family: var(--PTSans); }
+h1, h2, h3, h4 {
+    font-family: var(--PTSans);
+    line-height: 1.2;
+}
 
 h1 { font-size: 4.8rem; }
 
@@ -60,6 +62,8 @@ img { max-width: 100%; }
     background-size: cover;
     height: 60rem;
 }
+
+.TopBar { padding-top: 3rem; }
 
 .Header_Text {
     color: var(--White);
@@ -110,13 +114,56 @@ img { max-width: 100%; }
     background-color: var(--Black);
 }
 
+.Button-Secondary {
+    background-color: var(--Primary);
+}
+
+/* Courses Section */
+.Courses {
+    list-style: none;
+}
+
+.WidgetCourse {
+    border-bottom: 0.1rem solid var(--WhiteGrayish);
+    margin-bottom: 2rem;
+}
+
+.WidgetCourse:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.WidgetCourse_Label {
+    font-family: var(--OpenSans);
+    font-weight: bold;
+}
+
+.WidgetCourse_Info {
+    font-weight: normal;
+}
+
+.WidgetCourse_Label,
+.WidgetCourse_Info { font-size: 2rem; }
+
+/* Footer */
+.Footer {
+    background-color: var(--Black);
+    padding: 3rem 0;
+    margin-top: 4rem;
+}
+
+.Copyright {
+    font-size: 1.2rem;
+    font-family: var(--PTSans);
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
     .Header_Text {
         margin-top: 15rem;
     }
 
-    .TopBar {
+    .TopBar, .DownBar {
         display: flex;
         align-items: center;
         justify-content: space-between;
