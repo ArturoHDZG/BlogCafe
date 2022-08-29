@@ -1,6 +1,6 @@
 # Blog deCafé
 
-![Blog deCafé](https://user-images.githubusercontent.com/110303654/187105900-bf2fbaed-ac1f-40d5-901e-22ba1e7198cd.jpg)
+![Blog deCafé](https://user-images.githubusercontent.com/110303654/187316824-5fc5ee81-3969-4324-a31b-57da470c6d08.jpg)
 
 ## Visit site [here](https://arturohdzg.github.io/BlogCafe/)
 
