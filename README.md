@@ -2,15 +2,20 @@
 
 ![Blog deCafé](https://user-images.githubusercontent.com/110303654/187105900-bf2fbaed-ac1f-40d5-901e-22ba1e7198cd.jpg)
 
-
 ## Visit site [here](https://arturohdzg.github.io/BlogCafe/)
 
-Creation of my tirth demo project of static Website using HTML and CSS<br />
+Creation of my third demo project of static Website using HTML and CSS<br />
 I'll document a detailed project progress from start to end.
 <hr>
 
+### "About" Page Complete (29/08/2022)
 
-### Front Page's HTML and CSS (28/08/2022)
+* _about.html_ file created.
+* _CSS_ code improves (more clear and legible code).
+
+See project progress [here](https://github.com/ArturoHDZG/BlogCafe/releases/tag/0.6.0)
+
+### Front Page Complete (28/08/2022)
 
 * _aside_ and _footer_ section complete.
 * Web preview for Social Networking Services added.

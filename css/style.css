@@ -54,6 +54,7 @@ img { max-width: 100%; }
 
 .text-center { text-align: center; }
 
+/* Main Page */
 /* Header */
 .Header {
     background-image: url(../img/banner.jpg);
@@ -182,5 +183,19 @@ img { max-width: 100%; }
 
     .Button {
         display: inline-block;
+    }
+}
+
+/* About Page */
+/* Media Queries */
+@media (min-width: 768px) {
+    .AboutUs {
+        display: grid;
+        column-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .AboutUs_Text {
+        margin-top: 0;
     }
 }
