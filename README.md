@@ -13,7 +13,7 @@ I'll document a detailed project progress from start to end.
 * _courses.html_ & _content.html_ files created.
 * _CSS_ code improves (more clear and legible code).
 
-See project progress [here](https://github.com/ArturoHDZG/BlogCafe/releases/tag/0.6.0)
+See project progress [here](https://github.com/ArturoHDZG/BlogCafe/releases/tag/0.9.0)
 
 ### "About" Page Complete (29/08/2022)
 
