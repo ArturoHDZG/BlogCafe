@@ -199,3 +199,25 @@ img { max-width: 100%; }
         margin-top: 0;
     }
 }
+
+/* Courses Page */
+.Course {
+    border-bottom: 0.1rem solid var(--WhiteGrayish);
+    margin-bottom: 2rem;
+}
+
+.Course:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .Course {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+/* Content Page */
