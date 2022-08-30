@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto 03">
+    <meta name="author" content="Arturo Hernandez">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@arturo_hdzg">
+    <meta name="twitter:creator" content="@arturo_hdzg">
+    <meta property="og:title" content="Blog DeCafé">
+    <meta property="og:description" content="Demo Website CSS Flex & Grid">
+    <meta property="og:image" content="img/WebPreview.jpg">
+    <meta property="og:url" content="https://arturohdzg.github.io/BlogCafe">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog DeCafé</title>
+</head>
+
+<body>
+    <header class="Header">
+        <div class="Container">
+            <div class="TopBar">
+                <a class="Logo" href="index.html">
+                    <h1 class="Logo_Name no-margin text-center">Blog<span class="Logo_Bold">DeCafé</span></h1>
+                </a>
+                <nav class="Navigation">
+                    <a href="about.html" class="Navigation_Link text-center">About</a>
+                    <a href="courses.html" class="Navigation_Link text-center">Courses</a>
+                    <a href="contact.html" class="Navigation_Link text-center">Contact</a>
+                </nav>
+            </div> <!-- /.TopBar -->
+        </div> <!-- /.Container -->
+        <div class="Header_Text text-center">
+            <h2 class="no-margin">Coffee Blog: Tips & Courses</h2>
+            <p class="no-margin">Learn by experts with best recipes and hints</p>
+        </div>
+    </header>
+    <main class="Container">
+        <h3 class="text-center">Contact</h3>
+        <div class="ContactImage"></div>
+        <form class="ContactForm">
+            <div class="ContactField">
+                <label class="ContactField_Label" for="name">Name</label>
+                <input class="ContactField_Input" id="name" type="text" placeholder="John Smith" required>
+            </div>
+            <div class="ContactField">
+                <label class="ContactField_Label" for="email">E-mail</label>
+                <input class="ContactField_Input" id="email" type="email" placeholder="youremail@example.com" required>
+            </div>
+            <div class="ContactField">
+                <label class="ContactField_Label" for="comments">Comments</label>
+                <textarea class="ContactField_Input ContactField_Input-Text" id="comments" type="text" placeholder="Your Comments"></textarea>
+            </div>
+            <div>
+                <input type="submit" class="Button Button-Primary" value="Submit">
+            </div>
+        </form>
+    </main> <!-- /.Container -->
+    <footer class="Footer">
+        <div class="Container">
+            <div class="DownBar">
+                <a class="Logo" href="index.html">
+                    <h1 class="Logo_Name no-margin text-center">Blog<span class="Logo_Bold">DeCafé</span></h1>
+                </a>
+                <nav class="Navigation">
+                    <a href="about.html" class="Navigation_Link text-center">About</a>
+                    <a href="courses.html" class="Navigation_Link text-center">Courses</a>
+                    <a href="contact.html" class="Navigation_Link text-center">Contact</a>
+                </nav>
+            </div> <!-- /.DownBar -->
+        </div> <!-- /.Container -->
+    </footer>
+    <p class="Copyright no-margin text-center">Copyright 2022. Arturo Hernández Garza</p>
+</body>
+
+</html>

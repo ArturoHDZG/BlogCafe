@@ -8,6 +8,13 @@ Creation of my third demo project of static Website using HTML and CSS<br />
 I'll document a detailed project progress from start to end.
 <hr>
 
+### "Contact" Page & Demo Form Complete (30/08/2022)
+
+* _Contact.html_ file created.
+* _CSS_ Form made with Flexbox design (Only demo, not working).
+
+See project progress [here](https://github.com/ArturoHDZG/BlogCafe/releases/tag/0.9.9)
+
 ### "Courses" and "Blog Entry" Page Complete (29/08/2022)
 
 * _courses.html_ & _content.html_ files created.

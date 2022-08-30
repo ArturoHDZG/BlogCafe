@@ -101,6 +101,7 @@ img { max-width: 100%; }
 }
 
 .Button {
+    cursor: pointer;
     color: var(--White);
     display: block;
     font-size: 1.8rem;
@@ -220,4 +221,39 @@ img { max-width: 100%; }
     }
 }
 
-/* Content Page */
+/* Contact Page */
+.ContactImage {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+
+.ContactForm {
+    background-color: var(--White);
+    border-radius: 0.5rem;
+    margin: -5rem auto 0 auto;
+    padding: 5rem;
+    width: 95%;
+}
+
+.ContactField {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.ContactField_Label {
+    flex: 0 0 9rem;
+    text-align: right;
+}
+
+.ContactField_Input {
+    flex: 1;
+    border: 0.1rem solid var(--WhiteGrayish);
+}
+
+.ContactField_Input-Text {
+    height: 20rem;
+}
