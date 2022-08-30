@@ -1,12 +1,19 @@
 # Blog deCafé
 
-![Blog deCafé](https://user-images.githubusercontent.com/110303654/187316824-5fc5ee81-3969-4324-a31b-57da470c6d08.jpg)
+![Blog deCafé](https://user-images.githubusercontent.com/110303654/187335921-6b90c686-e6ee-44f4-86b8-2d98066ae175.jpg)
 
 ## Visit site [here](https://arturohdzg.github.io/BlogCafe/)
 
 Creation of my third demo project of static Website using HTML and CSS<br />
 I'll document a detailed project progress from start to end.
 <hr>
+
+### "Courses" and "Blog Entry" Page Complete (29/08/2022)
+
+* _courses.html_ & _content.html_ files created.
+* _CSS_ code improves (more clear and legible code).
+
+See project progress [here](https://github.com/ArturoHDZG/BlogCafe/releases/tag/0.6.0)
 
 ### "About" Page Complete (29/08/2022)
 
