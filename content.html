@@ -19,9 +19,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        crossorigin="crossorigin" as="font">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap">
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
     <title>Blog DeCafé</title>
 </head>
@@ -47,7 +51,7 @@
     </header>
     <main class="Container">
         <h3 class="text-center">Blog Entry</h3>
-        <img src="img/blog1.jpg" alt="Blog Entry">
+        <img loading="lazy" src="img/blog1.jpg" alt="Blog Entry">
         <p>What? Alright, good-bye Liny. Oh, watch that re-entry, it's a little bumpy. Thank you. In about thirty years. The storm.
         But you're good, Marty, you're really good. And this audition tape of your is great, you gotta send it in to the record
         company. It's like Doc's always saying.</p>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Proyecto 03">
+    <meta name="description" content="Coffee Blog">
     <meta name="author" content="Arturo Hernandez">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@arturo_hdzg">
@@ -18,9 +18,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap">
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="Prefetch" href="about.html" as="document">
     <title>Blog DeCafé</title>
 </head>
 <body>
@@ -47,7 +51,10 @@
             <h3>Blog</h3>
             <article class="Content">
                 <div class="Content_Image">
-                    <img src="img/blog1.jpg" alt="Ground Coffee">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp" alt="Ground Coffee">
+                        <img loading="lazy" src="img/blog1.jpg" alt="Ground Coffee">
+                    </picture>
                 </div>
                 <div class="Content_Text">
                     <h4 class="no-margin">Types of Coffee Beans</h4>
@@ -59,7 +66,10 @@
             </article>
             <article class="Content">
                 <div class="Content_Image">
-                    <img src="img/blog2.jpg" alt="3 Coffee Recipes">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp" alt="Ground Coffee">
+                        <img loading="lazy" src="img/blog2.jpg" alt="Ground Coffee">
+                    </picture>
                 </div>
                 <div class="Content_Text">
                     <h4 class="no-margin">3 Delicious Coffee Recipes</h4>
@@ -71,7 +81,10 @@
             </article>
             <article class="Content">
                 <div class="Content_Image">
-                    <img src="img/blog3.jpg" alt="Coffee Benefits">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp" alt="Ground Coffee">
+                        <img loading="lazy" src="img/blog3.webp" alt="Ground Coffee">
+                    </picture>
                 </div>
                 <div class="Content_Text">
                     <h4 class="no-margin">Coffee Health Benefits</h4>
@@ -89,13 +102,13 @@
                     <h4 class="no-margin">Coffee Extraction Techniques</h4>
                     <p class="WidgetCourse_Label">Cost: <span class="WidgetCourse_Info">For Free</span></p>
                     <p class="WidgetCourse_Label">Limited Quota: <span class="WidgetCourse_Info">20</span></p>
-                    <a class="Button Button-Secondary text-center" href="courses.html">More Info</a>
+                    <a class="Button Button-Secondary text-center" href="courses.html">More Info About Course & Workshops</a>
                 </li>
                 <li class="WidgetCourse">
                     <h4 class="no-margin">4 Coffee Recipes for Novices</h4>
                     <p class="WidgetCourse_Label">Cost: <span class="WidgetCourse_Info">For Free</span></p>
                     <p class="WidgetCourse_Label">Limited Quota: <span class="WidgetCourse_Info">20</span></p>
-                    <a class="Button Button-Secondary text-center" href="courses.html">More Info</a>
+                    <a class="Button Button-Secondary text-center" href="courses.html">More Info About Course & Workshops</a>
                 </li>
             </ul>
         </aside>
@@ -115,5 +128,6 @@
         </div> <!-- /.Container -->
     </footer>
     <p class="Copyright no-margin text-center">Copyright 2022. Arturo Hernández Garza</p>
+    <script src="js/modernizr.js"></script>
 </body>
 </html>

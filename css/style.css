@@ -56,8 +56,11 @@ img { max-width: 100%; }
 
 /* Main Page */
 /* Header */
+.webp .Header { background-image: url(../img/banner.webp); }
+
+.no-webp .Header { background-image: url(../img/banner.jpg); }
+
 .Header {
-    background-image: url(../img/banner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
