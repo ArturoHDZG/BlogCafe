@@ -8,6 +8,16 @@ Creation of my third demo project of static Website using HTML and CSS<br />
 I'll document a detailed project progress from start to end.
 <hr>
 
+### Demo Website Complete (31/08/2022)
+
+* Performance improved with _.webp_ images.
+* _Lazy loading_ tests.
+* _Prefetch_ tests.
+* _meta_ info added.
+* _Modernizr_ tests.
+
+See project progress [here](https://github.com/ArturoHDZG/BlogCafe/releases/tag/1.0.0)
+
 ### "Contact" Page & Demo Form Complete (30/08/2022)
 
 * _Contact.html_ file created.
